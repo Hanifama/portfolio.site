@@ -104,24 +104,14 @@ export default function About() {
                 <div>
                   <h3 className="text-2xl font-semibold text-white mb-4">Work Experience</h3>
 
-                  <div className="space-y-6">
-                    {/* Current Internship LSKK */}
-                    <div>
-                      <h4 className="text-xl font-semibold text-white">PT. LSKK (Current Internship)</h4>
-                      <p className="text-gray-300 font-medium">Web Developer</p>
-                      <p className="text-gray-400">Ongoing</p>
-                      <p className="mt-2 text-gray-200">
-                        Currently working on front-end projects using React.js, enhancing user interfaces and optimizing web applications for better performance and user experience.
-                      </p>
-                    </div>
-
+                  <div className="space-y-6">                    
                     {/* Current Freelance Work */}
                     <div>
-                      <h4 className="text-xl font-semibold text-white">Freelance Web Developer</h4>
-                      <p className="text-gray-300 font-medium">Self-employed</p>
+                      <h4 className="text-xl font-semibold text-white">Freelancer</h4>
+                      <p className="text-gray-300 font-medium">Web Developer</p>
                       <p className="text-gray-400">Oct 2023 - Now</p>
                       <p className="mt-2 text-gray-200">
-                        Currently working on various front-end projects for clients, using React.js to create dynamic and responsive user interfaces. Focused on enhancing user experience and optimizing web applications for better performance, collaborating remotely with teams when necessary.
+                        Currently working on various front-end projects for clients, using CI, Laravel, React js, Next JS to create dynamic and responsive user interfaces. Focused on enhancing user experience and optimizing web applications for better performance, collaborating remotely with teams when necessary.
                       </p>
                     </div>
 
@@ -130,18 +120,17 @@ export default function About() {
                     <div>
                       <h4 className="text-xl font-semibold text-white">PT. Maxxima Innovative Engineering (Internship)</h4>
                       <p className="text-gray-300 font-medium">Programmer Web</p>
-                      <p className="text-red-400"><span className="text-gray-400 mr-2">Aug 2022 - Oct 2023</span>3 months</p>
+                      <p className="text-red-400"><span className="text-gray-400 mr-2">Aug - Oct 2023</span>3 months</p>
                       <p className="mt-2 text-gray-200">
                         Developed a web-based attendance system during the internship. Focused on integrating APIs in the front-end using Laravel to ensure smooth data flow between the client and server. Collaborated with the back-end team to implement and optimize the attendance tracking functionality.
                       </p>
                     </div>
 
-
                     {/* Internship Sagara Technology */}
                     <div>
                       <h4 className="text-xl font-semibold text-white">Sagara Technology Bandung (Internship)</h4>
                       <p className="text-gray-300 font-medium">Front-end Developer</p>
-                      <p className="text-red-400"><span className="text-gray-400 mr-2">March 2023 - Mei 2023</span>3 months</p>
+                      <p className="text-red-400"><span className="text-gray-400 mr-2">March - April 2023</span>1 months</p>
                       <p className="mt-2 text-gray-200">
                         Focused on developing the "Cek Toko Obat" project, primarily working on the front-end using React.js. Built user-friendly interfaces to manage pharmacy stores, ensuring responsive design and optimal performance. Collaborated with the back-end team to integrate APIs and improve the overall functionality of the platform.
                       </p>
