@@ -15,7 +15,7 @@ export default function Chatbot() {
             .then((data) => {
                 setResponses(data);
                 const keys = Object.keys(data);
-                setRandomQuestions(keys.sort(() => 0.5 - Math.random()).slice(0, 5)); 
+                setRandomQuestions(keys.sort(() => 0.2 - Math.random()).slice(0, 2)); 
             });
     }, []);
 

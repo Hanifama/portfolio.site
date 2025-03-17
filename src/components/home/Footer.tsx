@@ -1,20 +1,12 @@
-import useCursor from '@/hooks/useCursor';
-import {
-  faDiscord,
-  faGithub,
-  faMailchimp,
-  faConnectdevelop,
-  faLinkedin,
-} from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { ArrowRight } from '@phosphor-icons/react';
+import RatingSystem from '../ratingSystem';
 
 export default function Footer() {
-  const cursor = useCursor(({ instance }) => instance);
-
   return (
     <footer
-      id="footer"
+      id="footer" 
       className="p-12 w-screen h-[26rem] flex flex-col justify-between"
     >
       <section>
@@ -36,7 +28,7 @@ export default function Footer() {
         </section>
       </section>
 
-      <section className="flex justify-between gap-4 itmes-end">
+      <section className="flex justify-between gap-4 items-end">
         <p className="text-sm sm:text-base text-zinc-500 bg-blend-difference">
           &copy; {new Date().getFullYear()} Haristfh All rights reserved.
         </p>
@@ -51,6 +43,8 @@ export default function Footer() {
           </a>
         </section>
       </section>
+
+      <RatingSystem />
     </footer>
   );
 }

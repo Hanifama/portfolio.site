@@ -1,0 +1,40 @@
+{
+    "ratings": [
+      {
+        "name": "Budi",
+        "rating": 5,
+        "comment": "Sangat baik, terus pertahankan!"
+      },
+      {
+        "name": "Bagus",
+        "rating": 5,
+        "comment": "Bagus, tapi masih bisa lebih baik lagi."
+      },
+      {
+        "name": "Siti",
+        "rating": 5,
+        "comment": "Luar biasa, sangat puas!"
+      },
+      {
+        "name": "Andi",
+        "rating": 5,
+        "comment": "Cukup bagus, tapi ada beberapa kekurangan."
+      },
+      {
+        "name": "Rina",
+        "rating": 5,
+        "comment": "Hasilnya memuaskan, terima kasih!"
+      },
+      {
+        "name": "Joko",
+        "rating": 4,
+        "comment": "Kurang sesuai dengan harapan saya."
+      },
+      {
+        "name": "Dewi",
+        "rating": 5,
+        "comment": "Sangat membantu dan berkualitas!"
+      }
+    ]
+  }
+  
