@@ -1,5 +1,6 @@
 import Head from '@/components/Head';
 import About from '@/components/home/About';
+import Chatbot from '@/components/home/Floating';
 import Footer from '@/components/home/Footer';
 import Hero from '@/components/home/Hero';
 import Projects from '@/components/home/Projects';
@@ -57,6 +58,7 @@ export default function Home({ projects }: { projects: Project[] }) {
       <About />
       <Projects projects={projects} />
       <Footer />
+      <Chatbot/>
     </>
   );
 }
